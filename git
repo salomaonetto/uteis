@@ -1,0 +1,57 @@
+Links do Github:
+
+#telefonicasc
+https://github.com/telefonicasc
+
+#TEF&Warpcom Team - SCRUM - 
+https://github.com/telefonicasc/urbo2/projects/3
+
+#Verticals
+https://github.com/telefonicasc/urbo2/tree/master/verticals
+
+#Widgets
+https://github.com/telefonicasc/urbo2/blob/master/docs/widgets.md#configuraci%C3%B3n-com%C3%BAn-a-todos-los-widgets
+
+#Datasource Postgresql - Query
+https://github.com/telefonicasc/urbo2/blob/master/server/datasources/postgresql/model.js#L630
+
+#tenéis que tener muy claro como configurar paneles: 
+https://github.com/telefonicasc/urbo2/blob/master/docs/panel.md
+
+#e id echando un vistazo a la config de los widgets, sobre todo desde el punto de vista básico de pintar widgets. intentad entender bien como un widget saca la info de la PG
+https://github.com/telefonicasc/urbo2/tree/master/docs/widgets
+
+#ese es un buen ejemplo: 
+https://devel.urbo2.es/panel/Contadores-de-agua:-Analisis-historico-00001?vertical=contadores-de-agua-00001
+
+#hay más funcionalidad avanzada, menos relevante
+
+#es una relación N a M. es decir, tenemos usuarios y tenemos paneles. entonces necesitamos "asignar" un panel a un usuario para que lo vea. lo que veo es que en devel estás accediendo con el usuario de demo (admin_alcobendas), en devel es urbo2demo_admin.
+
+# todos los paneles que hay
+https://devel.urbo2.es/admin/dashboard
+
+# y aunque no tengas asignado el panel, como es un superusuario, podrás verlo
+https://devel.urbo2.es/admin/dashboard/panel/1819-00001
+https://devel.urbo2.es/panel/1819-00001
+
+
+#lo esperado de nosotros, DBA'S, eres que utilizemos los cliques para la creacion
+# configuracion >>mongo	y dados >> postgres
+
+# mongo guarda las configuraciones de los paneles, widgets e Datasources que disem a lo frontend (via node) donde buscar los dados em postgres
+
+
+#Pentaho
+https://github.com/warpcomdev/lanzarote_smart_island/blob/7e93568f7fd819c0d89bc3eadf4acb3a08973bf0/docu-integradores/README.md
+
+
+
+
+
+
+
+
+
+
+
