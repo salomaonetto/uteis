@@ -15,6 +15,9 @@ https://github.com/telefonicasc/urbo2/blob/master/docs/widgets.md#configuraci%C3
 #Datasource Postgresql - Query
 https://github.com/telefonicasc/urbo2/blob/master/server/datasources/postgresql/model.js#L630
 
+#Documentación de la libreria de formatos de numeros que se utiliza
+https://github.com/d3/d3-format
+
 #tenéis que tener muy claro como configurar paneles: 
 https://github.com/telefonicasc/urbo2/blob/master/docs/panel.md
 
