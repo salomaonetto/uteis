@@ -1,0 +1,29 @@
+Exemples of d3-format, to work in widgets:
+
+Decimal - the decimal point (e.g., ".").
+d3.format(".2")(42);  // "42"
+d3.format(".2")(4.2); // "4.2"
+d3.format(".1")(42);  // "4e+1"
+d3.format(".1")(4.2); // "4"
+d3.format(".1f") (0.1)
+
+Percent - optional; the percent sign (defaults to "%").
+d3.format(".0%")  (0.123); 	// rounded percentage, "12%"
+d3.format(",.2%") (150,000.00%)
+
+Thousands - the group separator (e.g., ",").
+d3.format(",.2r") (4223);	// grouped thousands with two significant digits, "4,200"
+
+Con abreviatura usando el sufijo de la unidad
+d3.format("s")  (1500);  		// "1.50000k"
+d3.format("~s") (1500); 		// "1.5k"
+d3.format(".2s")  (42e6);		// SI-prefix with two significant digits, "42M"
+
+currency - the currency prefix and suffix (e.g., ["$", ""]).
+d3.format("($.2f")  (-3.5); 	// localized fixed-point currency, "(£3.50)"
+
+d3.format("#x") (48879);		// prefixed lowercase hexadecimal, "0xbeef"
+d3.format("+20")  (42);     	// space-filled and signed, "                 +42"
+d3.format(".^20") (42);    	// dot-filled and centered, ".........42........."
+
+More informations: https://github.com/d3/d3-format
